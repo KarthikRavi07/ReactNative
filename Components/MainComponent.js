@@ -9,8 +9,6 @@ import {Text,View,Platform,Image,StyleSheet,ScrollView} from 'react-native';
 import { createStackNavigator,createDrawerNavigator,DrawerItems,SafeAreaView } from 'react-navigation'; 
 import {Icon} from 'react-native-elements';
 
-
-
 const MenuNavigator = createStackNavigator({
     Menu: { screen: Menu ,
     navigationOptions: ({ navigation })=>({
